@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Version="9.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.App" />
     <PackageReference Include="System.Net.NameResolution" Version="4.3.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
@@ -24,6 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <CSFile Include="*.cs" Exclude="DoNotBuild.cs"/> 
     <ProjectReference Include="..\..\src\SimpleAPI\SimpleAPI.csproj" />
   </ItemGroup>
 
