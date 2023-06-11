@@ -6,7 +6,7 @@ using SimpleAPI.Controllers;
 
 
 
-namespace SimpleAPI.Test; 
+namespace SimpleAPI.Controllers; 
 {   
 
 public class UnitTest1
